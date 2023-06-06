@@ -1,0 +1,29 @@
+package first;
+
+public class Funcionario extends Pessoa{
+	//Atributos
+	private String setor;
+	private double salario;
+	
+	//Metodos
+	public String getSetor() {
+		return setor;
+	}
+	public void setSetor(String setor) {
+		this.setor = setor;
+	}
+	public double getSalario() {
+		return salario;
+	}
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+	public void imprimir() {
+		System.out.println("----------------");
+		System.out.println("Nome: " +this.nome);
+		System.out.println("CPF: " +this.cpf);
+		System.out.println("Idade: " +this.idade);
+		System.out.println("Setor: " +this.setor);
+		System.out.println("Salario: " +this.salario);
+	}
+}
